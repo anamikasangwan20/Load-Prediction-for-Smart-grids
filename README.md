@@ -1,6 +1,6 @@
 # Load-Prediction-for-Smart-grids
 
-This project is a part of my research work at the Data Science Lab. </br> 
+This project is a part of my research work at the Data Science Lab. </br> </br>
 Code: </br>
-The preprocess.py file extracts time series from the csv files and puts them into Python dataframes </br> 
-The baselines.py file implements ARIMA (Auto-Regressive Integrated Moving Average) and LSTM (Long Short-Term Memory) models for predicting customer load data into the future
+The preprocess.py file extracts monthly data from csv files and converts it into 4 dataframes: a) solar load b) AMI Net load c) CL load d) Gencap </br> 
+The baselines.py file implements ARIMA (Auto-Regressive Integrated Moving Average) and LSTM (Long Short-Term Memory) models to predict the AMI Net load
